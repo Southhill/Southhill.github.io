@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.ico">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"southhill.github.io","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"buttons","active":"valine","storage":true,"lazyload":false,"nav":null,"activeClass":"valine"},"algolia":{"appID":"4GY2YHCOUS","apiKey":"6405dcca07bf732d358c474c6f4f09d3","indexName":"hexo blog","hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="还是在之前的小说上，看到一段关于&lt;星际文明&gt;概念的对话，觉得作者写的逻辑自洽，颇有想法，所以在这里整理并记录下来。 场景：在霍金的时间穿越party上。 主人公问：“那么你所设想的星际文明，会是什么样子呢？”">
+<meta property="og:type" content="article">
+<meta property="og:title" content="宇宙文明的图景与费米悖论的探讨">
+<meta property="og:url" content="https://southhill.github.io/2020/06/06/%E5%AE%87%E5%AE%99%E6%96%87%E6%98%8E%E7%9A%84%E5%9B%BE%E6%99%AF%E4%B8%8E%E8%B4%B9%E7%B1%B3%E6%82%96%E8%AE%BA%E7%9A%84%E6%8E%A2%E8%AE%A8/index.html">
+<meta property="og:site_name" content="在路上">
+<meta property="og:description" content="还是在之前的小说上，看到一段关于&lt;星际文明&gt;概念的对话，觉得作者写的逻辑自洽，颇有想法，所以在这里整理并记录下来。 场景：在霍金的时间穿越party上。 主人公问：“那么你所设想的星际文明，会是什么样子呢？”">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-06-06T03:48:30.000Z">
+<meta property="article:modified_time" content="2022-04-07T03:50:33.640Z">
+<meta property="article:author" content="Cao">
+<meta property="article:tag" content="摘抄">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://southhill.github.io/2020/06/06/%E5%AE%87%E5%AE%99%E6%96%87%E6%98%8E%E7%9A%84%E5%9B%BE%E6%99%AF%E4%B8%8E%E8%B4%B9%E7%B1%B3%E6%82%96%E8%AE%BA%E7%9A%84%E6%8E%A2%E8%AE%A8/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>宇宙文明的图景与费米悖论的探讨 | 在路上</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="在路上" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">在路上</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">身体或灵魂，要有一个在路上</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container"></div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="algolia-results">
+  <div id="algolia-stats"></div>
+  <div id="algolia-hits"></div>
+  <div id="algolia-pagination" class="algolia-pagination"></div>
+</div>
+
+      
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://southhill.github.io/2020/06/06/%E5%AE%87%E5%AE%99%E6%96%87%E6%98%8E%E7%9A%84%E5%9B%BE%E6%99%AF%E4%B8%8E%E8%B4%B9%E7%B1%B3%E6%82%96%E8%AE%BA%E7%9A%84%E6%8E%A2%E8%AE%A8/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="Cao">
+      <meta itemprop="description" content="理想、音乐、小说、美食，唯有这四样事物值得长久追寻。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="在路上">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          宇宙文明的图景与费米悖论的探讨
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-06-06 11:48:30" itemprop="dateCreated datePublished" datetime="2020-06-06T11:48:30+08:00">2020-06-06</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2022-04-07 11:50:33" itemprop="dateModified" datetime="2022-04-07T11:50:33+08:00">2022-04-07</time>
+              </span>
+
+          
+            <span id="/2020/06/06/%E5%AE%87%E5%AE%99%E6%96%87%E6%98%8E%E7%9A%84%E5%9B%BE%E6%99%AF%E4%B8%8E%E8%B4%B9%E7%B1%B3%E6%82%96%E8%AE%BA%E7%9A%84%E6%8E%A2%E8%AE%A8/" class="post-meta-item leancloud_visitors" data-flag-title="宇宙文明的图景与费米悖论的探讨" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2020/06/06/%E5%AE%87%E5%AE%99%E6%96%87%E6%98%8E%E7%9A%84%E5%9B%BE%E6%99%AF%E4%B8%8E%E8%B4%B9%E7%B1%B3%E6%82%96%E8%AE%BA%E7%9A%84%E6%8E%A2%E8%AE%A8/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/06/06/%E5%AE%87%E5%AE%99%E6%96%87%E6%98%8E%E7%9A%84%E5%9B%BE%E6%99%AF%E4%B8%8E%E8%B4%B9%E7%B1%B3%E6%82%96%E8%AE%BA%E7%9A%84%E6%8E%A2%E8%AE%A8/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>还是在之前的小说上，看到一段关于&lt;星际文明&gt;概念的对话，觉得作者写的逻辑自洽，颇有想法，所以在这里整理并记录下来。</p>
+<p>场景：在霍金的时间穿越party上。</p>
+<p>主人公问：“那么你所设想的星际文明，会是什么样子呢？”</p>
+<span id="more"></span>
+
+<h3 id="星际文明的和人类个体的类比"><a href="#星际文明的和人类个体的类比" class="headerlink" title="星际文明的和人类个体的类比"></a>星际文明的和人类个体的类比</h3><p>霍金说道：“在我看来，人类与地外文明的接触，必然要承受惨烈的代价。这是力量的悬殊所带来的必然，如果地外文明发现人类，那人类将面临巨大的绝望，纵然外星人没有选择毁灭人类，人类也只像一个玩物一样。外星人哪怕一次兴趣盎然的行为，也会给人类带来无法承受的恶果。被毁灭，或被奴役都是极可能的，被同化已经是最好的结果了。电影中所谓共同发展，是完全不现实的事情……那是歌剧。星际文明发现地球人，就像是西班牙人发现美洲，他们给当地人带来了毁灭性的打击。战争、瘟疫、劫掠与饥荒充斥于那片大陆数百年，直到三大美洲文明就此消失……”</p>
+<p>主人公说道：“你大方向上是对的，但太激进了。”</p>
+<p>“是的，我忽略了一个重要的问题，人类也有可能遇到星际文明的个体，个体的行为是不能以文明集体利益去评价的。”霍金说道。</p>
+<p>主人公说道：“用欧洲殖民者征服美洲，来类比星际文明与地球的关系，是非常不贴切的。殖民者为了资源，外星人为了什么？也为了黄金？不可能的，宇宙中黄金多的是，能跨越星际的文明，有的是荒芜星球可以掘金。地球上所拥有的任何矿物资源，在宇宙中都不稀缺，就拿太阳系来说，实际上比地球更适合采集矿物的，不是火星、不是金星，而是小行星带……。地球上的智慧生命，才是最珍贵的东西，其他物质的价值并不比石头高多少。<strong>最接近真相的类比，应该是亚马逊丛林中还处于极为原始阶段的土著部落。</strong>”</p>
+<p>你们研究他们，观察他们，偶尔接触他们，期望他们有一天能走出丛林，办个身份证，融入现代社会……但从来不想毁灭他们，不是吗？或许部分人想奴役他们，但主流道德不允许，法律也不允许。</p>
+<p>每个文明都有自己独特的社会，而在比如银河系这样的地缘限制中，内部若干文明合起来，是一个更大的社会。他们相对独立而又相互团结，他们偶尔战争但又具备着智慧文明的集体同理心。这远比人类社会更复杂，但从人类社会中，你应该能看出它的影子。如果地球文明，踏入星际，却不能融入这个社会，那么最先承受不了社会压力的，是地球人，而不是其他成熟的文明。</p>
+<blockquote>
+<p>适应不了社会的人，灭亡的是自己，而非社会……<br>融入社会者，只是一个齿轮，社会永远不会恐惧一个齿轮。</p>
+</blockquote>
+<p>只要银河系内同时代出现多个星际文明，并且可以通过技术实现交流的话，最后就一定形成一个更大的社会，因为战争远没有交流来的价值大。</p>
+<p>主人公最后总结说到：“约束一个社会的新成员，法律、经济、技术压制、文化交流、公共秩序……有太多的东西可以约束一个弱小的文明。智慧生物的价值，在于活着。只有活着的智慧生物才能创造财富，任何群体都只能适应社会。”</p>
+<h3 id="费米悖论"><a href="#费米悖论" class="headerlink" title="费米悖论"></a>费米悖论</h3><p>霍金说道：“既然所有的智慧种族都可以在社会中创造财富，那么为什么地球文明，没有加入这个社会呢？”</p>
+<p>主人公说道：“原始部落与现代人类社会，差距已经很大了。但星际文明种族与人类的差距，比这更大。我可以很负责任的告诉你，地球人在星际标准中，连文明都不算。至少在银河系中，对于文明的定义，有一条你们并不符合。那就是脱离孕育你们的环境，社会依旧能运转。”</p>
+<p>霍金一听就懂，说的就是地球人没有星际殖民能力。</p>
+<p>“为什么要把标准定得这么高？”</p>
+<p>主人公说道：“文明标准，是根据社会需求而定义的。你们自认为很文明，但在星际文明看来，不能脱离孕育自身环境的种族，犹如泡沫一般，随时都可能消亡。或亡于自然灾害，或亡于自身。生命的伟大在于适应环境，你们适应了孕育你们的环境，但这只是开始。没有谁会帮助你们。你们就犹如未出生的婴儿，纵然将你们从母体中带出来，你们也活不下去。你们不能自己走出来，适应这个宇宙，就不算文明，在适应度上，你们并不比地球上的其他生物，高明多少，也许哪一天人类灭绝了，老鼠还活得好好的。”</p>
+<p>主人公又说道：“我承认这个标准很高，这种傲慢就如同你们社会中，孕妇肚子里的胎儿不算人一样。不过法律上，不给肚子里的胎儿发身份证，这确实也是合理的。因为胎儿，不一定能出生……好不容易出生了，也可能刚出生就死了……只有当婴儿睁开眼，开始了解这个世界时，他才算是一个社会人。”</p>
+<p>霍金明白了。人类必须靠自己，不会有谁帮他们，因为星际社会不需要一个被泛滥的善心所强行扶起来的文明。那不叫文明，那叫宠物。</p>
+<p>“所以，我们找不到宇宙中任何智慧文明通讯，是因为被星际文明屏蔽了吗？”，霍金猜测道。</p>
+<p> 主人公说道：“你可以这么理解，星际社会需要多元化的新成员，注入活力。所以不会干涉你们的发展，甚至还会保护你们不受星际文明的伤害。适者生存，你们想踏入星际，已经够难了，星际社会能做的，就是尽可能不给你们添加‘人为阻碍’。”</p>
+<p> “任何文明都是复杂和矛盾的，大部分群体漠不关心，只关心自己，一部分群体想帮你们，一部分群体想害你们，一部分群体一会儿想帮你们，一会儿又想害你们……，你应该庆幸，法律的存在，它制定了底线。但即便如此，星际社会不可能控制每一个成员的言行，所以只能屏蔽了你们。”</p>
+<p> 这一点霍金可以理解，首先传播技术肯定是违法的，星际社会需要人类自己走出来。</p>
+<p>这里面，肯定有包含有恶意的东西，肯定有带节奏的东西，肯定有大量的不良资讯。</p>
+<p>到时候地球文明就没办法发展了，大多数地球人，是没法分辨善意和恶意的。</p>
+<p>没有外星人时，一个人都能拉出一波邪·教，更何况得到‘来自于星际的启示’？</p>
+<p>黄极看着他，说道：“你们拥有自己的特质，自己的文化，自己的文明萌芽。你们确实在进步着，具有踏入星际文明的潜力，所以受到保护。大静默就是保护措施之一，你要相信，站在整个星盟的角度，还是希望你们走出来的。”</p>
+<blockquote>
+<p>蒙娜丽莎的微笑，它最美的、最受关注的时刻，就是在大火之中，已经被点燃的那一刻，世界瞩目！</p>
+</blockquote>
+<p>注：<em>该段摘抄出自魔性沧月的小说《信息全知者》第一百一十三章至第一百一十五章：星际文明图景，吃人罚款，灭亡的人类最美</em></p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%91%98%E6%8A%84/" rel="tag"># 摘抄</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/06/03/%E6%97%B6%E9%97%B4%E7%9A%84%E6%8E%A2%E8%AE%A8/" rel="prev" title="时间的探讨">
+      <i class="fa fa-chevron-left"></i> 时间的探讨
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2021/06/23/%E5%90%8D%E4%BA%BA%E5%90%8D%E8%A8%80/" rel="next" title="名人名言">
+      名人名言 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+    <div class="comments" id="valine-comments"></div>
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%98%9F%E9%99%85%E6%96%87%E6%98%8E%E7%9A%84%E5%92%8C%E4%BA%BA%E7%B1%BB%E4%B8%AA%E4%BD%93%E7%9A%84%E7%B1%BB%E6%AF%94"><span class="nav-number">1.</span> <span class="nav-text">星际文明的和人类个体的类比</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%B4%B9%E7%B1%B3%E6%82%96%E8%AE%BA"><span class="nav-number">2.</span> <span class="nav-text">费米悖论</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Cao"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">Cao</p>
+  <div class="site-description" itemprop="description">理想、音乐、小说、美食，唯有这四样事物值得长久追寻。</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">11</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/southhill" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;southhill" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://blog.csdn.net/ccaoee" title="CSDN → https:&#x2F;&#x2F;blog.csdn.net&#x2F;ccaoee" rel="noopener" target="_blank"><i class="fab fa-blogger fa-fw"></i>CSDN</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 2016 – 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Cao</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://mist.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> 强力驱动
+  </div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/velocity-animate@1/velocity.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/velocity-animate@1/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="//cdn.jsdelivr.net/npm/algoliasearch@4/dist/algoliasearch-lite.umd.js"></script>
+<script src="//cdn.jsdelivr.net/npm/instantsearch.js@4/dist/instantsearch.production.min.js"></script>
+<script src="/js/algolia-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+if (document.querySelectorAll('pre.mermaid').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
+    mermaid.initialize({
+      theme    : 'forest',
+      logLevel : 3,
+      flowchart: { curve     : 'linear' },
+      gantt    : { axisFormat: '%m/%d/%Y' },
+      sequence : { actorMargin: 50 }
+    });
+  }, window.mermaid);
+}
+</script>
+
+
+  
+
+  
+
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : false,
+      notify     : false,
+      appId      : 'eCHLoB81t36p79wcRNScqm89-gzGzoHsz',
+      appKey     : '4VKFr7gSGwdAPEQNDYOgg7Hk',
+      placeholder: "Just go go",
+      avatar     : 'mm',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : true,
+      lang       : 'zh-cn' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : false,
+      serverURLs : ''
+    });
+  }, window.Valine);
+});
+</script>
+
+</body>
+</html>
