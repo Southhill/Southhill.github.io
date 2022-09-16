@@ -6,7 +6,7 @@
   <link href="https://southhill.github.io/atom.xml" rel="self"/>
   
   <link href="https://southhill.github.io/"/>
-  <updated>2022-09-02T12:28:55.789Z</updated>
+  <updated>2022-09-16T17:16:56.096Z</updated>
   <id>https://southhill.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>所以,友谊会消失,对吗?</title>
+    <link href="https://southhill.github.io/2022/09/17/suo-yi-you-yi-hui-xiao-shi-dui-ma/"/>
+    <id>https://southhill.github.io/2022/09/17/suo-yi-you-yi-hui-xiao-shi-dui-ma/</id>
+    <published>2022-09-16T16:40:13.000Z</published>
+    <updated>2022-09-16T17:16:56.096Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>“最大的悲剧，便是眼看悲剧发生，却无能为力”</p><p>有一种意难平是：眼看着友谊流逝，却无法挽回</p></blockquote><span id="more"></span><p>我有一个朋友，友谊始于大学宿舍生活，我们有着很多相同的爱好：玩同类型的游戏，爱好文学，喜欢同样风格的音乐。</p><p>虽然大学毕业后，为了生活而分头奔波在城市的不同地方。幸好，还在同一个城市，隔个两三月，便会约起来一起玩游戏，吃饭。那时，我以为这样的友谊应该会长久的持续下去。并随着岁月的流逝而愈加珍贵，愈加多彩。</p><p>我本身比较谨言纳行，对身边的事情不够敏感。不知从什么时间起，我的这位“挚友”，开始不工作了，就蜗居在自己的住处。然后，自然地，他自身的经济搞得一团糟。于是陆续的找我借生活费。作为挚友，而且自己平时没有大开销。也就给借了。就这样，陆续借了10来次。 在后面的聚会中，我也尽可能的主动结账。想着，能照顾一份是一份。可能那个时刻起，我就有不好的预感了。</p><p>后来，我回到了距离家乡很近的城市工作，一段时间过去后，我打算买房，便提前联系我这位朋友，说，我在未来的某个月，要买房，麻烦将之前借的钱还清云云。</p><p>随着时间点的到来，我联系这位朋友，他说：自己的经济很糟糕，还不出来。我说：“你有什么方案吗？”，他支吾了半天，啥都没说出来。毕竟，急等着用钱，我便说，在某某时刻，你把钱还给我吧。 结果不出意外地，又到了约定时间点，他还是说没有。至于找的什么借口，我已经不想再提了。</p><p>我此时，感到非常的伤心。我自认为是他的挚友，在他生活陷入低谷的时候，我尽力帮衬着他，但当我真实想要急钱时，他一次又一次地辜负我。</p><p>没有主动给我解过围，没有主动联系过我，没有主动因他的个人缘故使我陷入尴尬境遇而给我道歉过。</p><p>我心有块垒，而无酒可浇。</p><p>友谊是一个有限度的东西，朋友一次又一次的使我失望，也伴随和我俩的友谊的一次又一次流失。</p><p>所以，怎么的处事态度才能保持长久的友谊不丢失呢？或者说，哪怕再坚贞的友谊，最终，也会渐渐褪色？</p><hr><p>在这个事件后，我得到如下教训：</p><ol><li>不要轻易借钱，哪怕是朋友</li><li>借钱要问清目的，记住：<wavy>救急不救困</wavy></li><li>不要轻易张口问朋友借钱</li><li>朋友不是你的支柱，父母才是。同样地，你不是你朋友的支柱，你朋友的父母才是他的支柱</li></ol>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;“最大的悲剧，便是眼看悲剧发生，却无能为力”&lt;/p&gt;
+&lt;p&gt;有一种意难平是：眼看着友谊流逝，却无法挽回&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>人生的意义与价值</title>
@@ -424,9 +444,9 @@
     
     
     
-    <category term="观影后感" scheme="https://southhill.github.io/tags/%E8%A7%82%E5%BD%B1%E5%90%8E%E6%84%9F/"/>
-    
     <category term="随想" scheme="https://southhill.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+    <category term="观影后感" scheme="https://southhill.github.io/tags/%E8%A7%82%E5%BD%B1%E5%90%8E%E6%84%9F/"/>
     
   </entry>
   
@@ -470,25 +490,6 @@
     
     
     <category term="诗歌" scheme="https://southhill.github.io/tags/%E8%AF%97%E6%AD%8C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数据结构与逻辑代码（一）</title>
-    <link href="https://southhill.github.io/2016/12/25/shu-ju-jie-gou-yu-luo-ji-dai-ma-yi/"/>
-    <id>https://southhill.github.io/2016/12/25/shu-ju-jie-gou-yu-luo-ji-dai-ma-yi/</id>
-    <published>2016-12-25T04:03:23.000Z</published>
-    <updated>2022-04-07T03:50:33.640Z</updated>
-    
-    <content type="html"><![CDATA[<p>《大教堂和市集》中有这样一句话：<strong>聪明的数据结构和笨拙的代码要比相反的搭配工作的更好</strong> ,我深以为然。本篇博文就是对此话题的个人简单理解，涉及的编程问题基本上来源于Codewars。</p><span id="more"></span><h2 id="释读"><a href="#释读" class="headerlink" title="释读"></a>释读</h2><p>Pascal之父——Nicklaus Wirth提出著名公式<strong>“算法+数据结构&#x3D;程序”</strong></p><p>本篇博文的主题也可以用简单的数学语句表达出来：</p><blockquote><p><strong>聪明的数据结构 + 笨拙的逻辑代码 &gt; 笨拙的数据结构 + 聪明的逻辑代码</strong><br>极端的说法是：优秀的数据结构远比优秀的逻辑代码要更好用。</p></blockquote><p>以下举一个来自Codewars中的编程问题：Playing on a chessboard<br>题目描述：给定一个输入参数n,它会得到一个二维数组（类似矩阵），行方向以1&#x2F;2，2&#x2F;3，3&#x2F;4这样的方式递增，列方向以1&#x2F;2，1&#x2F;3，1&#x2F;4这样的方式递增。返回一个数组，其值为所有元素的求和，如果求和值能约简为整数，则返回整数，否则返回[分子,分母]。<br>一个<code>n=3</code>时的数组例子：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">[</span><br><span class="line">[1/4,2/5,3/6],</span><br><span class="line">[1/3,2/4,3/5],</span><br><span class="line">[1/2,2/3,3/4]</span><br><span class="line">]</span><br></pre></td></tr></table></figure><p>初始解题思路是：先生成一个长度为n的二维数组，然后通过二次for循环对数组写入正确的值（这样好方便下边的计算），然后对数组中的所有元素进行求和，判断求和值是否能约简为整数，返回相应要求的数组。<br>然而，这个解法太死板了，于是我去看了看其他程序员的解法，然后，非常震惊的解法找到了，该解法的思路是：先找到n与求和值结果之间的数学关系，关系是：从生成数组的左上至右下方向观察数据，发现其值为n&#x2F;2或(n+1)&#x2F;2,然后我们得到了输入参数n和求和值之间的数学关系是：<code>n*n/2</code> 这便是所要求得结果，所以，最后的解决方案是：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">function game(n) &#123;</span><br><span class="line">    return n%2==1?[n*n,2]:[n*n/2];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>被震惊到了吧！这里有这样一个逻辑：观察相关的数学关系表达式，这便是所谓的<em>聪明的数据结构</em>了，而逻辑逻辑代码则因为数据结构的关系，变得异常简单（实际只是一个if判断），而初始思路则可看出笨拙的数据结构（未得到数学表达式之前的数据结构）的表现了。</p><hr><p>（未完 待补写）</p><h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><ul><li><a href="http://blog.csdn.net/ccaoee/article/details/51284155">大教堂和市集</a></li></ul>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;《大教堂和市集》中有这样一句话：&lt;strong&gt;聪明的数据结构和笨拙的代码要比相反的搭配工作的更好&lt;/strong&gt; ,我深以为然。本篇博文就是对此话题的个人简单理解，涉及的编程问题基本上来源于Codewars。&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="数据结构" scheme="https://southhill.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
   </entry>
   
