@@ -2618,7 +2618,7 @@ hr {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #780a81;
+  background: #ed4dff;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2683,4 +2683,11 @@ underline {
 right {
   display: block;
   text-align: right;
+}
+#vcomments {
+  order: 1;
+  margin-top: 50px;
+}
+#vcomments .vpower {
+  display: none;
 }
