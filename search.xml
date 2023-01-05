@@ -132,6 +132,33 @@
       </tags>
   </entry>
   <entry>
+    <title>名人名言</title>
+    <url>/2021/06/23/ming-ren-ming-yan/</url>
+    <content><![CDATA[<blockquote>
+<p>“想结婚的就去结婚，想单身就维持单身，反正到最后你们都会后悔。”<br><right>–萧伯纳</right></p>
+</blockquote>
+<blockquote>
+<p>“生活中只有两个悲剧，一个是没有得到你想要的，另一个是得到了。”<br><right>–王尔德</right></p>
+</blockquote>
+<span id="more"></span>
+<blockquote>
+<p>我们每个人都生活在各自的过去中，人们会用一分钟的时间去认识一个人，用一小时的时间去喜欢一个人，再用一天的时间去爱上一个人，到最后呢，却要用一辈子的时间去忘记一个人<br><right>–《廊桥遗梦》</right></p>
+</blockquote>
+<blockquote>
+<p>你不愿意种花，你说，我不愿看见它一点点凋落。是的，为了避免结束，你避免了一切开始。<br><right>–顾城《避免》</right></p>
+</blockquote>
+<blockquote>
+<p>人生不过是一个行走的影子，一个在舞台上指手画脚的伶人，在登场片刻，就在无声无息中悄然的退下；它是一个由白痴所讲的故事，那是充满了喧哗和骚动，却是找不出一点意义。<br><right>–莎士比亚</right></p>
+</blockquote>
+<blockquote>
+<p>忙碌的人忙于任何事情，除了生活。<br><right>–塞内加（Seneca 古罗马悲剧家）</right></p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>摘抄</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>利刃与犯罪</title>
     <url>/2022/04/11/li-ren-yu-fan-zui/</url>
     <content><![CDATA[<blockquote>
@@ -171,33 +198,6 @@
 ]]></content>
       <tags>
         <tag>思辨</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>名人名言</title>
-    <url>/2021/06/23/ming-ren-ming-yan/</url>
-    <content><![CDATA[<blockquote>
-<p>“想结婚的就去结婚，想单身就维持单身，反正到最后你们都会后悔。”<br><right>–萧伯纳</right></p>
-</blockquote>
-<blockquote>
-<p>“生活中只有两个悲剧，一个是没有得到你想要的，另一个是得到了。”<br><right>–王尔德</right></p>
-</blockquote>
-<span id="more"></span>
-<blockquote>
-<p>我们每个人都生活在各自的过去中，人们会用一分钟的时间去认识一个人，用一小时的时间去喜欢一个人，再用一天的时间去爱上一个人，到最后呢，却要用一辈子的时间去忘记一个人<br><right>–《廊桥遗梦》</right></p>
-</blockquote>
-<blockquote>
-<p>你不愿意种花，你说，我不愿看见它一点点凋落。是的，为了避免结束，你避免了一切开始。<br><right>–顾城《避免》</right></p>
-</blockquote>
-<blockquote>
-<p>人生不过是一个行走的影子，一个在舞台上指手画脚的伶人，在登场片刻，就在无声无息中悄然的退下；它是一个由白痴所讲的故事，那是充满了喧哗和骚动，却是找不出一点意义。<br><right>–莎士比亚</right></p>
-</blockquote>
-<blockquote>
-<p>忙碌的人忙于任何事情，除了生活。<br><right>–塞内加（Seneca 古罗马悲剧家）</right></p>
-</blockquote>
-]]></content>
-      <tags>
-        <tag>摘抄</tag>
       </tags>
   </entry>
   <entry>
@@ -500,11 +500,9 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[</span><br><span class="line">[1/4,2/5,3/6],</span><br><span class="line">[1/3,2/4,3/5],</span><br><span class="line">[1/2,2/3,3/4]</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
 <p>初始解题思路是：先生成一个长度为n的二维数组，然后通过二次for循环对数组写入正确的值（这样好方便下边的计算），然后对数组中的所有元素进行求和，判断求和值是否能约简为整数，返回相应要求的数组。<br>然而，这个解法太死板了，于是我去看了看其他程序员的解法，然后，非常震惊的解法找到了，该解法的思路是：先找到n与求和值结果之间的数学关系，关系是：从生成数组的左上至右下方向观察数据，发现其值为n&#x2F;2或(n+1)&#x2F;2,然后我们得到了输入参数n和求和值之间的数学关系是：<code>n*n/2</code> 这便是所要求得结果，所以，最后的解决方案是：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">function game(n) &#123;</span><br><span class="line">    return n%2==1?[n*n,2]:[n*n/2];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>被震惊到了吧！这里有这样一个逻辑：观察相关的数学关系表达式，这便是所谓的<em>聪明的数据结构</em>了，而逻辑逻辑代码则因为数据结构的关系，变得异常简单（实际只是一个if判断），而初始思路则可看出笨拙的数据结构（未得到数学表达式之前的数据结构）的表现了。</p>
-<hr>
-<p>（未完 待补写）</p>
+<p>这里有这样一个逻辑：观察相关的数学关系表达式，这便是所谓的<em>聪明的数据结构</em>了，而逻辑逻辑代码则因为数据结构的关系，变得异常简单（实际只是一个if判断），而初始思路则可看出笨拙的数据结构（未得到数学表达式之前的数据结构）的表现了。</p>
 <h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><ul>
-<li><a href="http://blog.csdn.net/ccaoee/article/details/51284155">大教堂和市集</a></li>
+<li><a href="/2022/04/07/da-jiao-tang-he-shi-ji/">大教堂和市集</a></li>
 </ul>
 ]]></content>
       <tags>
@@ -638,21 +636,6 @@ if you see what I see, if you feel as I feel, and if you would seek as I seek</p
       </tags>
   </entry>
   <entry>
-    <title>羸弱的心</title>
-    <url>/2021/06/24/lei-ruo-de-xin/</url>
-    <content><![CDATA[<blockquote>
-<p>一颗没有力量的心，要怎么安心舒适地独立行走呢，要怎么适可而止地爱人呢，要怎么不索求证地被爱呢？孱弱的灵魂是个无底洞，会吃人的，会自食的。不可取的。 </p>
-</blockquote>
-<blockquote>
-<p>我是陌生人中的陌生人，我对一些人的同情，比对另一些多一些，但是与任何人都没有打成一片。<br><right>哲学家，亚历山大·伊万诺维奇·赫尔岑 《往事与随想》</right></p>
-</blockquote>
-]]></content>
-      <tags>
-        <tag>随想</tag>
-        <tag>摘抄</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>网络小说评论暨推荐(2012)</title>
     <url>/2022/04/26/wang-luo-xiao-shuo-ping-lun-ji-tui-jian-2012/</url>
     <content><![CDATA[<blockquote>
@@ -675,6 +658,21 @@ if you see what I see, if you feel as I feel, and if you would seek as I seek</p
       <tags>
         <tag>古早文章</tag>
         <tag>网络小说</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>羸弱的心</title>
+    <url>/2021/06/24/lei-ruo-de-xin/</url>
+    <content><![CDATA[<blockquote>
+<p>一颗没有力量的心，要怎么安心舒适地独立行走呢，要怎么适可而止地爱人呢，要怎么不索求证地被爱呢？孱弱的灵魂是个无底洞，会吃人的，会自食的。不可取的。 </p>
+</blockquote>
+<blockquote>
+<p>我是陌生人中的陌生人，我对一些人的同情，比对另一些多一些，但是与任何人都没有打成一片。<br><right>哲学家，亚历山大·伊万诺维奇·赫尔岑 《往事与随想》</right></p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>随想</tag>
+        <tag>摘抄</tag>
       </tags>
   </entry>
   <entry>
@@ -707,7 +705,7 @@ if you see what I see, if you feel as I feel, and if you would seek as I seek</p
 </ul>
 </blockquote>
 <h2 id="为什么要采用”费曼学习法“"><a href="#为什么要采用”费曼学习法“" class="headerlink" title="为什么要采用”费曼学习法“"></a>为什么要采用”费曼学习法“</h2><p>通过教别人学习，两周后学习留存率高达**90%**，而简单的阅读留存率只能达到10%，</p>
-<p><strong>学习金字塔理论</strong>，见下图：<br><img src="http://oio74pto5.bkt.clouddn.com/images/fmxxf.jpg" alt="学习金字塔理论"></p>
+<p><strong>学习金字塔理论</strong>，见下图：<br><img src="/images/posts/fmxxf.jpg" alt="学习金字塔理论"></p>
 <p>在传授的过程中，触类旁通，举一反三（从深度到广度）</p>
 <h2 id="理解一项知识的体验是什么样的？"><a href="#理解一项知识的体验是什么样的？" class="headerlink" title="理解一项知识的体验是什么样的？"></a>理解一项知识的体验是什么样的？</h2><p>如果我们理解了一个东西，我们脑袋瓜中应该形成的是一个形象，非常具体的形象。或者说我们真正理解了一个东西，就是对其一种烂熟于心的状态，别人怎样的提问我们都能对其做出合格的应答。<strong>如果我们真正理解了一个东西，我们会发现自己的逻辑非常清晰，条理非常清楚，内心非常有数。</strong></p>
 <h2 id="“费曼学习法”的内容（具体应用法门）"><a href="#“费曼学习法”的内容（具体应用法门）" class="headerlink" title="“费曼学习法”的内容（具体应用法门）"></a>“费曼学习法”的内容（具体应用法门）</h2><blockquote>
