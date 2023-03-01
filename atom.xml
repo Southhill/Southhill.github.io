@@ -6,7 +6,7 @@
   <link href="https://southhill.github.io/atom.xml" rel="self"/>
   
   <link href="https://southhill.github.io/"/>
-  <updated>2023-03-01T03:06:19.059Z</updated>
+  <updated>2023-03-01T03:10:21.888Z</updated>
   <id>https://southhill.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://southhill.github.io/2023/02/21/gong-cheng-shi-shi-jiao-xia-de-jie-zhi-zhui-xun-zhi-lu/"/>
     <id>https://southhill.github.io/2023/02/21/gong-cheng-shi-shi-jiao-xia-de-jie-zhi-zhui-xun-zhi-lu/</id>
     <published>2023-02-21T06:25:19.000Z</published>
-    <updated>2023-03-01T03:06:19.059Z</updated>
+    <updated>2023-03-01T03:10:21.888Z</updated>
     
     <content type="html"><![CDATA[<!-- headingDivider: 3 --><!-- size: 16:9 --><!-- style: |  section {    background-color: #123;    color: #def;  }   .end h2 {    text-align: center;  }  intro {        display: block;        color: green;        text-align: right;    }    underline {        display: block;        text-decoration-style: underline;    }    right {        display: block;        text-align: right;    }    wavy {        display: block;        text-decoration-style: wavy;    }    li {        margin: 6px auto;    }--><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p><a href="https://book.douban.com/subject/6811366/">《禅与摩托车维修艺术》</a></p><ul><li>怎么治理二元化下的科技思想所造成的丑陋、孤寂和空虚的心灵</li><li>关注于精神感受与技术思维的整合，上述两者的分裂是我们这个时代之所以充斥着焦躁与不满的深刻根源<span id="more"></span></li></ul><h3 id="怎么看待这本书？"><a href="#怎么看待这本书？" class="headerlink" title="怎么看待这本书？"></a>怎么看待这本书？</h3><p>网友的<a href="https://book.douban.com/subject/6811366/reviews?start=20">一篇书评</a>中写道：</p><blockquote><p>……<br>哲学或者禅宗并不一定是本书的唯一重点，虽然作者这么认为。在第160 页出现了一个词 - untangle 我把它划了重点。这是一个 “untangle ( 解开 ) “自己的过程，一路上他都在嘟囔着试图解开自己的那团乱麻。非常孤独，陷在自己的世界里。它不是那种可以倾诉的孤独。倒不是因为无人倾听，而是因为线性的倾诉 (talking) 本身无法解开这团乱麻。必须要借用一种能够把混乱平摊铺开来的形式，找出其中的1，2，3，4 和之间的关系才能慢慢理顺。这本书就是这样的一个过程 - untangle 。至于理顺的是什么内容，怎样的一团毛线，多么深奥或者浅显的对哲学还是禅宗的理解，都没有理顺本身重要。<br>……</p></blockquote><hr><p>本次分享借助书中<strong>价值僵化</strong>部分的话题对工作实践中的“思维僵化”的探讨</p><blockquote><p>在价值的陷阱中，最常出现而又有害的是价值的僵化。这是指固守以前的价值观，无法从新的角度衡量事物。</p><p><right>来自书中内容第三部分·26小节</right></p></blockquote><p>这句话可以对<strong>思维僵化</strong>下定义：固守以前的思维观点，无法从新的思维视角看待问题</p><h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p><em>本节内容皆来自书中第二部分·9小节</em></p><blockquote><p>先拿出一个笔记本，把所有的状况都<strong>有条理地</strong>写下来，这样你就知道当前的进展、已经得到的信息、需要获得的信息，以及怎么得到这些信息</p></blockquote><p>总结如下：</p><p>要把问题有条理地写下来，兼顾这六个方面：<br>（1）问题是什么<br>（2）假设问题的原因<br>（3）证实每个假设的实验方法<br>（4）预测实验的结果<br>（5）观察实验的结果<br>（6）由实验得出结论</p><hr><blockquote><p>一旦有混淆的状况，最好的方法就是把它写下来，往往就在你写下来的时候，解决的方法就浮现出来了</p></blockquote><p>写下问题，对问题场景进行概括性的描述，在这过程中，梳理问题，总结细枝末节，发现之前忽视的细节，自我的一场提问，暗合费曼学习法</p><p><strong>为什么要如此大费周章</strong>，作者说：</p><blockquote><p>科学方法最主要的目的就是让你准确地知道事情的真相，而不会误入歧途。<br>在科学式的思考当中，第一步就是把问题写下来，其中主要的技巧就是只有你确实知道的东西才写下来，</p></blockquote><h3 id="案例"><a href="#案例" class="headerlink" title="案例"></a>案例</h3><blockquote><p>一旦遇到瓶颈，你只好停下来，仔细思考一番，四处看看是否有新的启发，然后出去逛逛，等你回来时，原先隐而未现的原因就会浮现出来</p><p><right>来自书中内容第一部分·5小节</right></p></blockquote><p>在日常的开发工作中，遇到一个异常顽固的问题，很长时间不得解法，在准备放弃的时候，<strong>出去走走，一觉醒来。</strong> 突然思路打开，顿悟问题的关键之所在，解开了问题。</p><p>为什么我们会<em>长时间不得解法</em>呢？作者给出了他的回答</p><h3 id="长时间不得解法"><a href="#长时间不得解法" class="headerlink" title="长时间不得解法?"></a>长时间不得解法?</h3><blockquote><p>有些东西你忽略是因为它们非常细微，但有些却是因为它们过于庞大。</p><p><right>来自书中内容第一部分·5小节</right></p></blockquote><p><strong>非常细微</strong>：当代的软件工程由很许多模块组成，个人无法把控全部的技术细节。且很多模块都有黑盒属性，我们只能通过输入输出来判定当前环境是否工作正常。却不了解它的原理从而有的放矢的解决特定问题。</p><p><strong>过于庞大</strong>： 某种产品组成模块十分庞杂，无法一览而窥全貌</p><h3 id="假设问题的原因"><a href="#假设问题的原因" class="headerlink" title="假设问题的原因"></a>假设问题的原因</h3><p>这一环节，需要的是：</p><blockquote><p>最重要的工作在于仔细观察和精确思考</p></blockquote><blockquote><p>证实假设的实验方法，从许多假设当中找出正确的一个，这就是科学的目的。</p></blockquote><blockquote><p>然而，事实恰恰相反。各种资料、史料、理论和假设不断地大量增加，科学把人从唯一绝对的真理，引向多元、摇摆不定、相对的世界，是造成社会混乱、思想价值混淆的主要元凶。而这一切现象原本是科学要消灭的。许多年前斐德洛在实验室中已经觉察到的结果，如今在这个科学世界中随处可见。<strong>科学反而制造出反科学的混乱</strong></p></blockquote><hr><p>一个产品由无数个功能组成，某个环节出了问题，我们可以分别从上游&#x2F;自身&#x2F;下游作为着手点去解决问题。只要有一个环节的方法奏效，则全局下的问题就解决了</p><p>多个途径的解决方法，意味着有多个假设，带来多重混乱，</p><p>所以，如果一个问题，有多个解决方案，我们需要权衡利弊，优中择优。选出最适合的那个。</p><p>但是，还需要时刻记住我们解决问题的目的。</p><blockquote><p>如果只触及问题的结果，而不知道原因在何处，是不可能有任何改变的</p></blockquote><h3 id="解决问题的目的"><a href="#解决问题的目的" class="headerlink" title="解决问题的目的"></a>解决问题的目的</h3><blockquote><p>真正的理性教堂的宣道者的目标并不是把服务大众放在第一位，他们的首要目标是通过理性服务于真理</p></blockquote><p>就是说，我们最初解决问题的目的，原动力是什么？<br>是服务于理性还是服务于现实（用户）</p><p>如果该问题很棘手，有个丑陋的解决方法可以快速解决问题，是否要采纳。</p><p>所以，将问题限制在最初的范围下，不要扩展解决方案的范围。</p><p>这个现象，我在平时的git提交时，会犯这样的错误</p><p>在修复错误类型的<code>commit</code>中，要做到一个commit只针对一个现象&#x2F;问题。</p><h2 id="观点（思维的僵化）"><a href="#观点（思维的僵化）" class="headerlink" title="观点（思维的僵化）"></a>观点（思维的僵化）</h2><p>对于思维的僵化，作者有如下论述：</p><p><em>本节内容来自书中第二部分·14小节</em></p><blockquote><p>我们活在一个价值混淆的时代，造成这种现象的最主要原因就是，过去的思维模式已经无法应对新的状况</p></blockquote><blockquote><p>在你冥思苦想而不可得的时候，不要沿着原有的思路继续走下去，你应该停下脚步，放松一段时间，发散自己的思想，直到碰到一些事，能够让你拓展原先知识的根基，才继续前进。</p></blockquote><blockquote><p>虽然因为语言的僵化，这些通往峰顶的旧路即将丧失它们的日常意义，甚至封闭了，但这并不表示山已经消失了，它仍然在那儿，只有人有意识，它就存在。</p><p>所以解决的方法多得难以预估。一旦等你想出来，就会发现都很简单。但是只有在知道答案之后，才会觉得简单。</p></blockquote><h3 id="是时候做些改变了"><a href="#是时候做些改变了" class="headerlink" title="是时候做些改变了"></a>是时候做些改变了</h3><p><img src="https://img0.baidu.com/it/u=2152628053,3371135302&fm=253&fmt=auto&app=138&f=JPEG?w=600&h=400" alt="bg saturate"></p><!-- _color: darkblue --><p><em>本节内容来自书中第三部分·25小节</em></p><blockquote><p style="color: orange">如果你的价值僵化了，你所能做的就是放慢脚步——不论你愿不愿意，你必然会慢下来——但是你要做的是刻意放慢脚步，然后重新审视过去你认为重要的事物是否仍然重要……只需要静静地注视着机器，这么做没有什么问题，静静地和它相处一阵子，用你注视鱼线的方式注视它，不久你一定会看到鱼线在动。</p></blockquote><p><strong>追寻一种内心的平静</strong></p><blockquote><p style="color: orange">内心的平静会产生正确的价值观，正确的价值观会产生正确的思想，正确的思想就会产生正确的行动，而采取了正确行动的工作，便可使别人从中看到做事人内心的平静</p><p style="color: orange">一个人如果能够保持长久的安静，看见、听见、感受到真正的宇宙，而不是一些八股的思想，他必然会充满进取心。</p></blockquote><hr><p>思维僵化还会带来工作上的厌倦</p><blockquote><p>当你觉得很厌倦的时候，一定要停手！放下工作去看场表演，打开电视机或者收工。随便做什么，就是别碰那台机器。如果你不停下来，接下来很可能就会出大问题。所以的枯燥和问题积累到一定程度，就会突然爆发出来，于是你就真正地动弹不得了。</p></blockquote><p>作者进一步论述到：</p><blockquote><p>任何一种工作早晚都会变的枯燥——当他卡住的时候，只要调整到积极的情绪，开始倾听良知的指引，悄悄地遵循它，心无旁骛，就能使自己手中的工作变成一种艺术</p><p>能够使你平静的就是好的工作，反之，则是坏的。</p></blockquote><h3 id="从一座山谷看到了另一座山谷的景象"><a href="#从一座山谷看到了另一座山谷的景象" class="headerlink" title="从一座山谷看到了另一座山谷的景象"></a>从一座山谷看到了另一座山谷的景象</h3><p><img src="https://img95.699pic.com/xsj/26/9b/xu.jpg%21/fw/700/watermark/url/L3hzai93YXRlcl9kZXRhaWwyLnBuZw/align/southeast" alt="bg right"></p><blockquote><p>他从一座山谷看到了这一座山谷的景象</p></blockquote><h2 id="扩展内容"><a href="#扩展内容" class="headerlink" title="扩展内容"></a>扩展内容</h2><p>互联网思维：互联网思维，就是在（移动）互联网+、大数据、云计算等科技不断发展的背景下，对市场、用户、产品、企业价值链乃至对整个商业生态进行重新审视的思考方式。</p><p>计算思维: 计算思维是运用计算机科学的基础概念进行问题求解、系统设计、以及人类行为理解等涵盖计算机科学之广度的一系列思维活动，由周以真于2006年3月首次提出。2010年，周以真教授又指出计算思维是与形式化问题及其解决方案相关的思维过程，其解决问题的表示形式应该能有效地被信息处理代理执行。</p><h2 id="推书"><a href="#推书" class="headerlink" title="推书"></a>推书</h2><ul><li><a href="https://book.douban.com/subject/35951747/">《科学革命的结构》</a><blockquote><p>这是20世纪学术史上极有影响的著作之一，是科学史与科学哲学研究者们不可不读的基本文献。它引发了一场认识论的大变革，成为科学哲学史上一道重要的分水岭。其影响不仅在于科学史、科学哲学、科学社会学等相关领域，而且延伸到社会学、文化人类学、文学史、艺术史、政治史、宗教史等人文和社会科学领域，甚至在社会公众领域也产生了深刻的影响。书中的关键概念如“范式转换”等如今已成为世界性的重要词汇。</p></blockquote></li></ul><h2 id="End"><a href="#End" class="headerlink" title=" End"></a><!-- fit --> End</h2><style scoped>h2 {  text-align: center;}</style><!-- _backgroundColor: lightblue -->]]></content>
     
@@ -66,6 +66,8 @@
     
     
     
+    
+    <category term="读后谈" scheme="https://southhill.github.io/tags/%E8%AF%BB%E5%90%8E%E8%B0%88/"/>
     
   </entry>
   
@@ -117,7 +119,7 @@
     <link href="https://southhill.github.io/2023/01/17/hao-qi-xin-yu-san-fen-zhong-re-du/"/>
     <id>https://southhill.github.io/2023/01/17/hao-qi-xin-yu-san-fen-zhong-re-du/</id>
     <published>2023-01-17T07:49:47.000Z</published>
-    <updated>2023-01-18T09:02:55.363Z</updated>
+    <updated>2023-03-01T03:14:22.768Z</updated>
     
     <content type="html"><![CDATA[<p>在信息时代，在21世纪初叶，面对泛滥无止境的信息，我们要以何种态度来面对自己的爱好，从而不被卷入到信息茧房中。</p><span id="more"></span><p>信息茧房在百度百科中这样定义：</p><blockquote><p>被自己的兴趣所引导桎梏自己的生活</p><p>信息茧房是指人们关注的信息领域会习惯性地被自己的兴趣所引导，从而将自己的生活桎梏于像蚕茧一般的“茧房”中的现象。由于信息技术提供了更自我的思想空间和任何领域的巨量知识，一些人还可能进一步逃避社会中的种种矛盾，成为与世隔绝的孤立者。在社群内的交流更加高效的同时，社群之间的沟通并不见得一定会比信息匮乏的时代更加顺畅和有效。</p><p>生活在“信息茧房”里，公众就不可能考虑周全，因为他们自身的先入之见将逐渐根深蒂固。</p></blockquote><p>我认为有效的手段是<strong>保持一颗旺盛的好奇心</strong>，对于信息流，去追根究底每个感兴趣的细节，以便可以根据事物之间的联系，扩展你的兴趣广度。</p><p>这里的好奇心是消遣性质的好奇心。</p><p>但仅仅有好奇心是不够的，我们在好奇心下，接触了许许多多的概念，很多事物是无法调和的、彼此矛盾的。因此，我们还需要<strong>舍去</strong>，舍去不想要的，温读感兴趣的。这时，三分钟热度就会发挥作用。</p><p>有一个现象是随着短视频的兴起，在推荐算法的加持下，你会不知不觉的在上面花费数个小时。</p><p>因此，在三分钟热度的影响下，你会在一段时间后，逐渐厌弃这种空虚的生活，从而离开推荐算法编制的信息茧房。</p><p>说到温读，我特别中意一首歌《好梦如旧》，里面有一句歌词是这样的：</p><blockquote><p><wavy>检点旧书册，已入古人歌</wavy></p></blockquote><p>不管在什么情况下，<strong>检点旧书册</strong>都是一个好习惯。</p><p>这一路上，我们收藏了太多的东西，我们需要不定时的返回头去审视那些东西，是该抛弃还是该重温故事。</p><p>圣人说：“温故而知新，可以为师矣。” 就是在说温故的重要性。</p><p>有一些有<strong>稍后阅读&#x2F;收藏</strong>功能的App，但很多都没有提醒用户翻阅已保存好的内容，而是任由那些内容在用户的收藏夹中吃灰。我认为没有贴合<strong>温故知新</strong>，对于一款产品来说是不够优秀的。</p>]]></content>
     
@@ -127,6 +129,8 @@
     
     
     
+    <category term="随想" scheme="https://southhill.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
+    
   </entry>
   
   <entry>
@@ -134,7 +138,7 @@
     <link href="https://southhill.github.io/2023/01/17/fen-xiang-yu-shi-zui-gao-ji-de-lang-man/"/>
     <id>https://southhill.github.io/2023/01/17/fen-xiang-yu-shi-zui-gao-ji-de-lang-man/</id>
     <published>2023-01-17T07:13:18.000Z</published>
-    <updated>2023-01-17T10:01:09.059Z</updated>
+    <updated>2023-03-01T03:14:41.816Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>分享欲是最高级的浪漫，然而想要找到承接你浪漫的人并不容易</p></blockquote><p>一个人不小心掉入悬崖了，幸好中间有个狭小的壁洞，从壁洞长出一颗横生的树，从而拦住了他的掉落，他小心翼翼的顺着树干爬到壁洞中，以作短暂的休息。</p><span id="more"></span><p>过了一会儿，从上方垂下一根绳子，他赶紧抓住。尝试拉了拉，似乎上方有人在拉着另一头。他深知，待在壁洞不是长久之计，虽然搞不清楚绳子另一方的具体情况，但简单测试下来是没有问题的。他慢慢的将绳子抓在手中，爬出壁洞，开始顺着绳子向上攀爬。</p><p>他爬呀爬，感觉距离悬崖顶部的距离在不断缩小，但每天新的开始，还在最初的地方，甚至可以看到下面距离不远的壁洞。他不知道距离到底有没有缩小。</p><p>他开始疑惑，他开始退缩，他开始给自己打气，他又开始攀爬；他又开始疑惑、退缩、打气、攀爬。</p><p>他知道，如果还是这样的进度，用不了多久，他应该就放弃，重新爬进下方的壁洞了。</p><p>当你为了推进两性关系，而分享一些好玩的事物给对方，而对方只是作简单的敷衍。甚至你以为对面的就是机器人了。你就不知道是该放手，还是说对方本身比较内向些。</p><p>对于内向的人，你可能还有种错觉，你就是她人生路中的救主。会用恒久的温情来融化对方冰封起来的心。</p><p>然而，很多时候，我们却有想的太多了，个人有个人的缘法。</p><p>人生路漫长，失去就失去了，毕竟在失去之前，你是有做过努力的。</p><p>每一天，每一刻，我们都在不同的地点遇到不同的人，或许，很多人的缘分就仅仅是擦肩而过而已。</p><blockquote><p><strong>一个秘密换取另一个秘密，一个思绪换取另一个思绪</strong></p></blockquote><p>这是我认为合适的朋友交流之准则。分享只需要说出口，但响应分享则需要一些人生智慧</p><blockquote><p><strong>无法共鸣的精神和无法消化的浪漫是孤独的诱因</strong></p></blockquote><p>算了，就这样吧！</p>]]></content>
     
@@ -146,6 +150,8 @@
     
     
     
+    
+    <category term="随想" scheme="https://southhill.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
     
   </entry>
   
